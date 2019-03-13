@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateKeeper.API", "GateKeeper.API\GateKeeper.API.csproj", "{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateKeeper.Models", "GateKeeper.Models\GateKeeper.Models.csproj", "{CAB0099E-C908-45B4-A7D1-FE39B944EED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{3B9CAE8C-77DE-400B-8864-E6F61552B4CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{59AB9165-AAE5-4682-A967-E743C0F3DC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateKeeper.Twilio", "GateKeeper.Twilio\GateKeeper.Twilio.csproj", "{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB0099E-C908-45B4-A7D1-FE39B944EED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB0099E-C908-45B4-A7D1-FE39B944EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB0099E-C908-45B4-A7D1-FE39B944EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB0099E-C908-45B4-A7D1-FE39B944EED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8A4BB57-E3C8-4400-96BA-2FA3578AAB93} = {59AB9165-AAE5-4682-A967-E743C0F3DC19}
+		{CAB0099E-C908-45B4-A7D1-FE39B944EED4} = {3B9CAE8C-77DE-400B-8864-E6F61552B4CE}
+		{D7B4FBDD-DD69-42A6-8569-7F1D30712FE6} = {3B9CAE8C-77DE-400B-8864-E6F61552B4CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD9EB57-E6D3-44D5-BE06-5D10626D7CD6}
+	EndGlobalSection
+EndGlobal
